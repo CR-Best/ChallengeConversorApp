@@ -30,7 +30,7 @@ public class ControladorConversor {
             int opcion = scanner.nextInt();
             if (opcion == 7) {
                 System.out.println("Saliendo de la aplicacion...");
-                break; //salir del bucle
+                break;
             }
 
             System.out.print("Ingresa la cantidad a convertir: ");
