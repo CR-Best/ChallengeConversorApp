@@ -16,7 +16,7 @@ public class ControladorConversor {
     public void mostrarMenu() {
         while (true) {
             System.out.println("*********************************************************************");
-            System.out.println("Bienvenidos al Conversor de monedas de Carlos Rosales");
+            System.out.println("Bienvenidos al Conversor de monedas de Alura Latam - CR-Best");
             System.out.println("*********************************************************************");
             System.out.println("1) Dólar ==> Peso colombiano");
             System.out.println("2) Peso colombiano ==> Dólar");
