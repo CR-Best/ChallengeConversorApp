@@ -5,18 +5,31 @@ Este proyecto es un **conversor de monedas** que permite convertir entre diferen
 ## Estructura del Proyecto
 
 ConversorMonedas/
+
 │
+
 ├── src/
+
 │   ├── com/
+
 │   │   ├── aluracursos/
+
 │   │   │   ├── controlador/
+
 │   │   │   │   └── ControladorConversor.java
+
 │   │   │   ├── modelo/
+
 │   │   │   │   └── Conversor.java
+
 │   │   │   ├── vista/
+
 │   │   │   │   └── VistaConversor.java
+
 │
+
 ├── README.md
+
 └── .gitignore
 
 
