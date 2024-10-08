@@ -1,6 +1,7 @@
 package com.aluracursos.controlador;
 
 import com.aluracursos.modelo.Conversor;
+import java.util.Scanner;
 
 public class ControladorConversor {
     private final Conversor conversor;
@@ -11,7 +12,7 @@ public class ControladorConversor {
         scanner = new Scanner(System.in);
     }
 
-    // Método para mostrar el menú
+    //metodo para mostrar el menu
     public void mostrarMenu() {
         while (true) {
             System.out.println("*********************************************************************");
@@ -28,8 +29,8 @@ public class ControladorConversor {
 
             int opcion = scanner.nextInt();
             if (opcion == 7) {
-                System.out.println("Saliendo...");
-                break; // Salir del bucle
+                System.out.println("Saliendo de la aplicacion...");
+                break; //salir del bucle
             }
 
             System.out.print("Ingresa la cantidad a convertir: ");
@@ -37,22 +38,28 @@ public class ControladorConversor {
             try {
                 switch (opcion) {
                     case 1:
-                        System.out.println("Resultado: " + conversor.convertir("USD", "COP", cantidad) + "\n");
+                        double resultadoCOP = conversor.convertir("USD", "COP", cantidad);
+                        System.out.printf("El valor de %.2f [USD] corresponde a ==> %.2f [COP].\n\n", cantidad, resultadoCOP);
                         break;
                     case 2:
-                        System.out.println("Resultado: " + conversor.convertir("COP", "USD", cantidad) + "\n");
+                        double resultadoUSD1 = conversor.convertir("COP", "USD", cantidad);
+                        System.out.printf("El valor de %.2f [COP] corresponde a ==> %.2f [USD].\n\n", cantidad, resultadoUSD1);
                         break;
                     case 3:
-                        System.out.println("Resultado: " + conversor.convertir("USD", "MXN", cantidad) + "\n");
+                        double resultadoMXN = conversor.convertir("USD", "MXN", cantidad);
+                        System.out.printf("El valor de %.2f [USD] corresponde a ==> %.2f [MXN].\n\n", cantidad, resultadoMXN);
                         break;
                     case 4:
-                        System.out.println("Resultado: " + conversor.convertir("MXN", "USD", cantidad) + "\n");
+                        double resultadoUSD2 = conversor.convertir("MXN", "USD", cantidad);
+                        System.out.printf("El valor de %.2f [MXN] corresponde a ==> %.2f [USD].\n\n", cantidad, resultadoUSD2);
                         break;
                     case 5:
-                        System.out.println("Resultado: " + conversor.convertir("USD", "EUR", cantidad) + "\n");
+                        double resultadoEUR = conversor.convertir("USD", "EUR", cantidad);
+                        System.out.printf("El valor de %.2f [USD] corresponde a ==> %.2f [EUR].\n\n", cantidad, resultadoEUR);
                         break;
                     case 6:
-                        System.out.println("Resultado: " + conversor.convertir("EUR", "USD" , cantidad) + "\n");
+                        double resultadoUSD3 = conversor.convertir("EUR", "USD", cantidad);
+                        System.out.printf("El valor de %.2f [EUR] corresponde a ==> %.2f [USD].\n\n", cantidad, resultadoUSD3);
                         break;
                     default:
                         System.out.println("Opción no válida. Intenta de nuevo.");
@@ -64,4 +71,3 @@ public class ControladorConversor {
         scanner.close();
     }
 }
-
