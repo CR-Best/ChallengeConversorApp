@@ -1,13 +1,6 @@
-# Conversor de Monedas - Carlos Rosales
+# Conversor de Monedas - Alura Latam -  CR-Best
 
 Este proyecto es un **conversor de monedas** que permite convertir entre diferentes divisas utilizando la API de ExchangeRate-API para obtener los tipos de cambio en tiempo real. La aplicación está diseñada para ejecutarse en consola y permite seleccionar el tipo de conversión, ingresar una cantidad y obtener el valor convertido.
-
-## Estructura del Proyecto
-
-ConversorMonedas/
-
-```ConversorMonedas/ │ ├── src/ │ ├── com/ │ │ ├── aluracursos/ │ │ │ ├── controlador/ │ │ │ │ └── ControladorConversor.java │ │ │ ├── modelo/ │ │ │ │ └── Conversor.java │ │ │ ├── vista/ │ │ │ │ └── VistaConversor.java │ ├── README.md └── .gitignore```
-
 
 - **ControladorConversor.java**: Controla la lógica del menú y las interacciones del usuario.
 - **Conversor.java**: Contiene la lógica para conectarse a la API y realizar la conversión de divisas.
