@@ -1,4 +1,6 @@
-package com.aluracursos.modelo;
+package com.aluracursos.controlador;
+
+import com.aluracursos.modelo.Conversor;
 
 public class ControladorConversor {
     private final Conversor conversor;

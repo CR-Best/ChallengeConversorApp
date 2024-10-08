@@ -1,6 +1,4 @@
-package Vista;
-
-import Controlador.ControladorConversor;
+import com.aluracursos.controlador.ControladorConversor;
 
 public class VistaConversor {
     public static void main(String[] args) {
@@ -8,3 +6,4 @@ public class VistaConversor {
         controlador.mostrarMenu(); // Iniciar el menú
     }
 }
+
