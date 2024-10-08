@@ -57,7 +57,7 @@ El valor 1000.00 [COP] corresponde al valor final de ==> 0.25 [USD].
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tuusuario/conversor-monedas.git
+   git clone https://github.com/CR-Best/ChallengeConversorApp
 2. Importa el proyecto en tu IDE favorito (Eclipse, IntelliJ IDEA, etc.).
 3. Ejecuta el archivo VistaConversor.java para iniciar el programa en consola.
 
