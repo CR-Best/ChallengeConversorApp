@@ -10,11 +10,11 @@ ConversorMonedas/
 
 ├── src/
 
-│   ├── com/
+│        ├── com/
 
-│   │   ├── aluracursos/
+│      │      ├── aluracursos/
 
-│   │   │   ├── controlador/
+│      │      │      ├── controlador/
 
 │   │   │   │   └── ControladorConversor.java
 
